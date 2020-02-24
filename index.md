@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Brandon Papineau
 
 As Nina Markl once said:
