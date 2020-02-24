@@ -6,6 +6,8 @@ My name is Brandon Papineau. I am a final-year Undergraduate student of Linguist
 
 On this site, you can find my publications, as well as learn more about me.
 
+Link to my NWAV poster about Ariana Grande [here](Papineau_Grande_2019.pdf).
+
 A personal favourite quote from Warren Maguire:
 
 > My daugter's ex-best friend has
