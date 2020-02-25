@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-<img align="left" src="Portrait_Sq.png" alt="Cosplaying Steve Jobs" width="200" hspace="25" vspace="25"/> 
+<img align="right" src="Portrait_Sq.png" alt="Cosplaying Steve Jobs" width="200" hspace="25" vspace="25"/> 
 Originally from San Diego, California, I am a final-year undergraduate student of Linguistics at the University of Edinburgh, in Edinburgh Scotland. After the completion of my undergraduate degree, I will begin studying towards my PhD at Stanford University. I am particularly interested in sociolinguistics and the linguistic creation of personae in popular music, as well as in morphology more generally.
 
 I am currently serving as the President of the University of Edinburgh [Linguistics Society](https://eulingsoc.eusa.ed.ac.uk/) for the 2019-2020 academic year, as well as the National Chair of the Undergraduate Linguistics Association of Britain [(ULAB)](https://www.ulab.org.uk/) for the 2019-2020 academic year.
