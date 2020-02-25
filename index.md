@@ -9,7 +9,7 @@ Originally from San Diego, California, I am a final-year undergraduate student o
 
 I am currently serving as the President of the University of Edinburgh [Linguistics Society](https://eulingsoc.eusa.ed.ac.uk/) for the 2019-2020 academic year, as well as the National Chair of the Undergraduate Linguistics Association of Britain [(ULAB)](https://www.ulab.org.uk/) for the 2019-2020 academic year.
 
-When I'm not doing linguistics, I can often be found reading (especially horror), playing video games, or spending time with my friends. I'm always down for a good coffee-and-books session!
+When I'm not doing linguistics, I can often be found reading (especially horror), playing video games, or visting the theatre. I'm always down for a good coffee-and-books session!
 
 # Research
 
