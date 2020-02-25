@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# About Me
+# Brandon Papineau (BranPap) - He/Him
+
+## About Me
 
 <img align="right" src="Portrait_Sq.png" alt="Cosplaying Steve Jobs" width="200" hspace="25" vspace="25"/>
 Originally from San Diego, California, I am a final-year undergraduate student of Linguistics at the University of Edinburgh, in Edinburgh Scotland. After the completion of my undergraduate degree, I will begin studying towards my PhD at Stanford University. I am particularly interested in sociolinguistics and the linguistic creation of personae in popular music, as well as in morphology more generally.
@@ -11,7 +13,9 @@ I am currently serving as the President of the University of Edinburgh [Linguist
 
 When I'm not doing linguistics, I can often be found reading (especially horror), playing video games, or visting the theatre. I'm always down for a good coffee-and-books session!
 
-# Research
+My friends in California call me BranPap and you're welcome to, too! 
+
+## Research
 
 ### Conference Talks
 
