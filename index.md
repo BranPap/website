@@ -15,7 +15,7 @@ When I'm not doing linguistics, I can often be found reading (especially horror)
 
 ### Conference Posters
 
-Papineau, B. (2019). 'The way it be settin' the tone': AAE Morphosyntax in Ariana Grande's **thank u, next** (poster). **New Ways of Analyzing Variation 48** (NWAV48), 4-6 October, The University of Oregon, Eugene, OR, USA. [Download](Papineau_Grande_2019.pdf).
+Papineau, B. (2019). 'The way it be settin' the tone': AAE Morphosyntax in Ariana Grande's *thank u, next* (poster). *New Ways of Analyzing Variation 48* (NWAV48), 4-6 October, The University of Oregon, Eugene, OR, USA. [Download](Papineau_Grande_2019.pdf).
 
 Link to my NWAV 2019 poster with Dr. Lauren Hall-Lew about Nina Nesbitt [here](Papineau_and_Hall-Lew_2019.pdf).
 
