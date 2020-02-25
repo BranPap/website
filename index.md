@@ -8,7 +8,7 @@ On this site, you can find my publications, as well as learn more about me.
 
 Link to my NWAV 2019 poster about Ariana Grande [here](Papineau_Grande_2019.pdf).
 
-Link to my NWAV 2019 poster with Dr. Lauren Hall-Lew about Nina Nesbitt [here](Papineau_and_Hall_Lew_2019.pdf)
+Link to my NWAV 2019 poster with Dr. Lauren Hall-Lew about Nina Nesbitt [here](Papineau_and_Hall-Lew_2019.pdf).
 
 A personal favourite quote from Warren Maguire:
 
