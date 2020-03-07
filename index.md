@@ -28,3 +28,7 @@ Papineau, B. (2019). T-Glottaling and Nina Nesbitt: A Comparative and Intraspeak
 Papineau, B. (2019). 'The way it be settin' the tone': AAE Morphosyntax in Ariana Grande's *thank u, next* (poster). *New Ways of Analyzing Variation 48* (NWAV48), 10-12 October, The University of Oregon, Eugene, OR, USA. [Download](Papineau_Grande_2019.pdf).
 
 Papineau, B. & Hall-Lew, L. (2019). 'Hooked on Celebri[ɾ]y': Intervocalic /t/ in the Speech and Song of Nina Nesbitt (poster). *New Ways of Analyzing Variation 48* (NWAV48), 10-12 October, The University of Oregon, Eugene, OR, USA. [Download](Papineau_and_Hall-Lew_2019.pdf).
+
+## Social Media
+
+You can follow me on [Twitter](https://www.twitter.com/bran_pap) & [Instagram](https://www.instagram.com/bran_pap)! 
