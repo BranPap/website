@@ -259,7 +259,7 @@ a:hover{
 }
 
 .footer {
-   position:fixed;
+   position:absolute;
    text-align: center;
    left:0px;
    bottom:0px;
