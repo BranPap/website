@@ -69,7 +69,7 @@ strong {
 }
 
 .row a {
-    color: rgb(124, 124, 124);
+    color: #36d5e3;
     letter-spacing: 0px;
     text-decoration: none;
 }
@@ -181,7 +181,7 @@ hr{
 
 .text a{
     /* color: rgba(255, 40, 86, 0.671); */
-    color: rgb(124, 124, 124);
+    color: #36d5e3;
     text-decoration: none;
 }
 
@@ -261,10 +261,14 @@ a:hover{
 .footer {
    position:fixed;
    text-align: center;
-   font-size: 5;
    left:0px;
    bottom:0px;
    height:30px;
    width:100%;
    background:#FFF;
+   text-decoration: none;
+}
+
+.footer a {
+  color: #36d5e3;
 }
