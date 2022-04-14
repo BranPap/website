@@ -259,7 +259,7 @@ a:hover{
 }
 
 .footer {
-   position:absolute;
+   position:fixed;
    text-align: center;
    left:0px;
    bottom:0px;
@@ -271,4 +271,11 @@ a:hover{
 
 .footer a {
   color: #36d5e3;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
