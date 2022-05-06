@@ -11,6 +11,7 @@
 
 p{
     margin: 5px 0px;
+    text-align: justify;
 }
 
 strong {
@@ -66,6 +67,15 @@ strong {
     margin: auto;
     display: block;
     border: 1px solid black;
+}
+
+img {
+    float: left; 
+    margin: 0px;
+    max-width: 250px;
+    margin: auto;
+    display: block;
+    padding-right: 15px;
 }
 
 .row a {
