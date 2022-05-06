@@ -1,6 +1,54 @@
-from pickle import FALSE, TRUE
-import string
-import random
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        - numpy
+    </py-env>
+  </head>
+  <br>
+  <div id='random' style="text-align: center;"></div>
+  <body> 
+      <py-script output='random'> 
+import numpy as np
+words = ["crow","raven"]
+
+selected = np.random.choice(words)
+
+selected
+        </py-script> 
+
+    <div id="try" style="text-align: center;"></div>
+    <py-script output="try">
+
+class Word:
+    def __init__(self,English,Faroese):
+        #attributes
+        self.Faroese = Faroese
+        self.English = English
+
+words = """Car,Bilur
+Lion,Leyva
+Frog,Froskur"""
+
+def wordIter(words):
+        words = words.split('\n')
+        possibleWords = []
+        for line in words:
+            word = line.split(',')
+            possibleWords.append(Word(word[0],word[1]))
+        return possibleWords
+    
+allWords = wordIter(words)
+
+newSelected = np.random.choice(allWords)
+
+newSelected2 = newSelected.Faroese
+
+newSelected2
+    </py-script>
+    <py-script>
+        import numpy as np
 
 ### Defining the Class of Learning Words
 
@@ -27,25 +75,25 @@ Frog,Froskur"""
 allWords = wordIter(words)
 
 def gameplay():
-    playToggle = TRUE
+    playToggle = True
     print("Welcome to Bran's language learning game. You will get a random word in Faroese, and have to guess the word by providing the program with 1-letter guesses. Once you guess the word, you'll be asked to translate it into English! Easy enough? Let's get started!")
     print('\n')
-    while playToggle == TRUE:
+    while playToggle == True:
         round()
 
 def translate(roundWord):
-    translationPlay = TRUE
+    translationPlay = True
     print('Now it\'s time to translate this word into English!')
     print('What does',roundWord.Faroese,'mean in English?')
     translationAnswer = roundWord.English.lower()
-    while translationPlay == TRUE:
+    while translationPlay == True:
         translationGuess = input()
         if translationGuess.lower() == translationAnswer:
             print('Yes, you got it!')
             print('Would you like to try another word?')
             playAgainAnswer = input()
             if playAgainAnswer.lower() == "yes":
-                return TRUE
+                return True
             else:
                 print('Okay, goodbye!')
                 quit()
@@ -54,7 +102,7 @@ def translate(roundWord):
 
 def check(wordLetters, roundGuesses, roundWord):
     errors = 0
-    translationComplete = FALSE
+    translationComplete = False
     for letter in wordLetters:
         if letter not in roundGuesses:
             errors += 1
@@ -62,12 +110,12 @@ def check(wordLetters, roundGuesses, roundWord):
         print('You guessed the word!')
         # translate(roundWord)
         translationComplete = translate(roundWord)
-    if translationComplete == TRUE:
-        return TRUE
+    if translationComplete == True:
+        return True
 
 def round():
-    round = TRUE
-    roundWord = random.choice(allWords)
+    round = True
+    roundWord = np.random.choice(allWords)
     targetWord = roundWord.Faroese
     translation = roundWord.English
     roundGuesses = []
@@ -78,7 +126,7 @@ def round():
     for letter in wordLetters: 
         display.append('-')
     print('Your word is:',display)
-    while round == TRUE:
+    while round == True:
         display = []
         playerGuess = input()
         if len(playerGuess) != 1:
@@ -97,10 +145,14 @@ def round():
                 display.append('-')
         print(display)
         roundEnd = check(wordLetters, roundGuesses, roundWord)
-        if roundEnd == TRUE:
-            round = FALSE
+        if roundEnd == True:
+            round = False
             allWords.remove(roundWord)
     if len(allWords) == 0:
         print('You\'ve completed all the words in the game!')
     
 gameplay()
+    </py-script>
+ 
+    </body>
+</html>
