@@ -26,40 +26,84 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-%\usepackage{moderncvcolorburgundy}
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% \moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{burgundy} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \usepackage{tipa}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{multicol}
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=0.8]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{fontawesome}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Bran[don] Thomas} % Your first name
-\familyname{Papineau} % Your last name
+\name{Bran[don]}{Papineau}
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Linguistics PhD Student, Stanford University}
-\address{Stanford, California}{}
+\address{ \faMapMarker \space Stanford, California}{}
 \mobile{+1 (858) 951-4005}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{branpap[at]stanford[dot]edu}
-%\homepage{https://branpap.github.io/}{https://branpap.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{hello}
+\homepage{www.branpap.com}
+\extrainfo{\faGithub \space \url{branpap.github.io}} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 % \quote{PhD Student}
+
+%\renewcommand*{\namefont}{\fontsize{38}{40}\mdseries\upshape}
+
+% \newcommand*{\cventrycite}[7][.25em]{%
+%   \cvitem[#1]{#2}{%
+%     {\bfseries#3}%
+%     \ifthenelse{\equal{#4}{}}{}{. {\slshape#4}}%
+%     \ifthenelse{\equal{#5}{}}{}{. #5}%
+%     \ifthenelse{\equal{#6}{}}{}{. #6}%
+%     .\strut%
+%     \ifx&#7&%
+%       \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+
+% \moderncvhead{1}
+\moderncvbody{1} % makes the body classic
+%\setlength{\hintscolumnwidth}{2cm} % Uncomment to change the width of the dates column
+
+\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {{\Large\faMobilePhone}~}
+\renewcommand*{\fixedphonesymbol}    {\faPhone~}
+\renewcommand*{\faxphonesymbol}      {{\small\faFax}~}                % alternative: \faPrint
+\renewcommand*{\emailsymbol}         {{\small\faEnvelopeO}~}          % alternative: \faInbox
+\renewcommand*{\homepagesymbol}      {{\small\faGlobe}~}              % alternative: \faHome
+\renewcommand*{\linkedinsocialsymbol}{{\small\faLinkedin}~}           % alternative: \faLinkedinSquare
+\renewcommand*{\xingsocialsymbol}    {{\small\faXing}~}               % alternative: \faXingSquare
+\renewcommand*{\twittersocialsymbol} {{\small\faTwitter}~}            % alternative: \faTwitterSquare
+\renewcommand*{\githubsocialsymbol}  {{\small\faGithub}~}             % alternative: \faGithubSquare, \faGithubSquare
+\renewcommand*{\gitlabsocialsymbol}  {{\small\faGitlab}~}
+\renewcommand*{\skypesocialsymbol} {{\small\faSkype}~}
+
+\usepackage{xcolor}
+\definecolor{burgundy}{rgb}{0.596078,0,0}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
-\makecvtitle 
+\vspace{-2cm}
+\Huge \color{burgundy} Bran[don] Papineau \color{black}| \Large \textit{PhD Student, Linguistics}
+\linebreak
+\linebreak
+\raggedright \large \faMapMarker \space \textit{Stanford University} | \faGlobe \space \url{www.branpap.com} | \faEnvelopeO \space \textit{branpap@stanford.edu} | 
+\vspace{5px}
+
+\faGithub \space \url{www.branpap.github.io} | \faPhone \space \textit{+1 858 951 4005}
+ 
+\vspace{15px}
+% \fancyfoot[c]{\parbox[b]{14cm}{\color{color2}\addressfont\strut\flushright Papineau \thepage}}
+% \vspace*{-5mm} 
+
 %\vspace{-1cm}
 \section{Education}
 
@@ -122,40 +166,5 @@
 
 \cventry{}{English}{First language}{}{}{}
 \cventry{}{Spanish}{CEFR B2}{}{}{}
-
-
-
-% \pagebreak
-% \section{Computer skills}
-
-% \cventry{MS Office}{Word, Excel, Powerpoint}{experienced}{}{}{}
-% \cventry{Other}{R, \LaTeX}{proficient}{}{}{}
-% \cventry{Other}{CLAN, Praat, ELAN}{basic}{}{}{}
-
-% \section{Languages}
-
-% \cventry{}{English}{First language}{}{}{}
-% \cventry{}{Spanish}{CEFR B2}{}{}{}
-
-%  \section{Research Interests}
-
-% \hspace*{\dimexpr\hintscolumnwidth+\separatorcolumnwidth\relax}
-% \begin{minipage}{\maincolumnwidth}
-% 	\begin{multicols*}{2}
-% 		\begin{itemize}
-% 			\item Language Attitudes \& Ideology
-% 			\item Language Maintenance
-% 			\item Language \& Identity
-% 			\item Language \& Gender
-% 		\item Language \& Sexuality
-% 			\item Language \& Music
-% 			\item Language Policy
-% 			\item Second Language Acquisition
-% 			\item Bilingualism 
-% 			\item Morphological Conversion
-% 		\end{itemize}
-% 	\end{multicols*}
-% \end{minipage}
-
 
 \end{document}
