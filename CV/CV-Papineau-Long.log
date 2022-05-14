@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  9 MAY 2022 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  13 MAY 2022 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,26 +731,26 @@ File: t3cmss.fd 2001/12/31 TIPA font definitions
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 149.
+(Font)              <7> on input line 159.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 149.
- [2] (/Users/branpap/Desktop/website/CV/CV-Papineau-Long.aux)
+(Font)              <5> on input line 159.
+ [2] [3] (/Users/branpap/Desktop/website/CV/CV-Papineau-Long.aux)
 Package rerunfilecheck Info: File `CV-Papineau-Long.out' has not changed.
-(rerunfilecheck)             Checksum: C75EA39CFBE1597F1FE1D9DB360B7FFD;1500.
+(rerunfilecheck)             Checksum: 8156B711E799725F2AE71BBAE35F6A84;1864.
  ) 
 Here is how much of TeX's memory you used:
- 24325 strings out of 478994
- 436555 string characters out of 5858185
- 844843 words of memory out of 5000000
- 41243 multiletter control sequences out of 15000+600000
+ 24330 strings out of 478994
+ 436590 string characters out of 5858185
+ 847819 words of memory out of 5000000
+ 41244 multiletter control sequences out of 15000+600000
  426148 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,14n,116p,472b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tipa/tipasi10.pfb>
-Output written on /Users/branpap/Desktop/website/CV/CV-Papineau-Long.pdf (2 pages, 149304 bytes).
+Output written on /Users/branpap/Desktop/website/CV/CV-Papineau-Long.pdf (3 pages, 150829 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 39517 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 39541 words of extra memory for PDF output out of 42996 (max. 10000000)
 
