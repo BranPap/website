@@ -79,7 +79,7 @@ img {
 }
 
 .row a {
-    color: #36d5e3;
+    color: #5724a3;
     letter-spacing: 0px;
     text-decoration: none;
 }
@@ -191,7 +191,13 @@ hr{
 
 .text a{
     /* color: rgba(255, 40, 86, 0.671); */
-    color: #36d5e3;
+    color: #5724a3;
+    text-decoration: none;
+}
+
+a{
+    /* color: rgba(255, 40, 86, 0.671); */
+    color: #5724a3;
     text-decoration: none;
 }
 
@@ -206,7 +212,7 @@ hr{
 }
 
 a:hover{
-    color: #5724a3;
+    color: #36d5e3;
 }
 
 .item{
