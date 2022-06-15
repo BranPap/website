@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="overwatch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="overwatch.js"></script>
+    <script type = "text/JavaScript" src = "https://underscorejs.org/underscore-min.js"></script>
+</head>
+
+<body>
+  <div class="page-header">
+    <br>
+    <a class="bn47" href="/">Back to Site</a>
+    <h1> Overwatch Random Team Generator </h1>
+
+  </div>
+  <div class="instructions">
+    Looking to spice up your Overwatch life? Tired of playing the same, winning team comp with your friends? Well you're in luck, because I've built a random team comp generator that will be sure to shake things up. Maybe you'll have to pair Zenyatta with Winston? Will your Lucio be able to help your Phara? Who knows! There's only one way to find out: press the "Generate Team" button below!
+    <br>
+    <br>
+    <em>Please note that this is not a finished product; more options and functionalities are coming!</em>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="button-zone">
+  <button onclick="press()" class="button-53" role="button">Generate Team</button>
+  </div>
+  <br>
+  <br>
+
+    <table class="output-table">
+        <thead>
+            <tr>
+                <th><h1>Tank One</h1></th>
+                <th><h1>Tank Two</h1></th>
+                <th><h1>Damage One</h1></th>
+                <th><h1>Damage Two</h1></th>
+                <th><h1>Support One</h1></th>
+                <th><h1>Support Two</h1></th>
+            </tr>
+        </thead>
+        <tr>
+          <td><span id="tank1">?</span></td>
+          <td><span id="tank2">?</span></td>
+          <td><span id="dmg1">?</span></td>
+          <td><span id="dmg2">?</span></td>
+          <td><span id="heal1">?</span></td>
+          <td><span id="heal2">?</span></td>
+      </tr>
+      <tr id="image-row">
+        <td><img id=tank1-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+        <td><img id=tank2-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+        <td><img id=dmg1-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+        <td><img id=dmg2-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+        <td><img id=heal1-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+        <td><img id=heal2-img src="overwatch-images/zenyatta-concept.webp" width="100%" height="100%"></td>
+    </tr>
+    </div>
+
+
+</body>
+</html>
+
+
+
