@@ -169,6 +169,7 @@
     font-size: 1em;
 text-align: center;
 color: #ED6516;
+text-decoration: underline;
 }
 
 .output-table td {
